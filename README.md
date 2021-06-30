@@ -11,7 +11,6 @@ Supervised multi-class classifiers
 | ---------- | :-----------:  | :-----------: |:-----------:  | :-----------: |:-----------:  |
 | Belousov(2017)    | Using an Ensemble of Generalised Linear and Deep Learning Models in the SMM4H 2017 Medical Concept Normalisation Task     | logistic    | medDRA    | accuracy    |      |
 |       | A Hybrid Normalization Method for Medical Concepts in Clinical Narrative using Semantic Matching     | "Exact Match + Edit Distance Deep Learning（Embedding layer+bilstm+dense+softmax）   | ShARe/CLEF 2013   |   |     |
-+ 
 | Belousov(2017)    | Multi-task CharacterLevel Attentional Networks for Medical Concept Normalization     | medical named entity recognition(CNN embedding+BiLSTM sequence labeling) and normalization    | BC5CDR task corpus/ NCBI Disease corpus    | F1    |      |
 
 |      | Medical concept normalization in social media posts with recurrent neural networks     |    | CADEC    |    |      |
@@ -19,13 +18,14 @@ Supervised multi-class classifiers
 Dataset
 |Dataset    | Paper | Mention     | Standard entities     |  Source     |  
 | ---------- | :-----------:  | :-----------: |:-----------:  | :-----------:  | 
-| CHIP-2019   |       |      | 9867    | CHIP-2019    |
-| Ask patient   |       |  17324    | 1036 concepts, 22 semantic types    |  blog post     |
-| TwADR-L   |       |    5074  | 2220 concepts, 18semantic types   | social media    |
-| SMM4H-17   |       |   9149   | 22500 concepts(513 in trainset), 61 semantic types    |  tweets     |
-| MCN  |       |  13609    | 434056 concepts(3792 in trainset), 125 semantic types    | from the MIMIC II31 database    |
+| CHIP-2019   |    A Knowledge-driven Generative Model for Multi-implication Chinese Medical Procedure Entity Normalization（EMNLP2020）   |   4000   | 9867    | clinical procedures extracted from Chinese electronic medical records    |
+| Ask patient   |   Normalising Medical Concepts in Social Media Texts by Learning Semantic Representation（ACL2016）    |  17324    | 1036 concepts, 22 semantic types    |  blog post     |
+| TwADR-L   |   Normalising Medical Concepts in Social Media Texts by Learning Semantic Representation（ACL2016）    |    5074  | 2220 concepts, 18semantic types   | social media    |
+| SMM4H-17   |  Data and systems for medication-related text classification and concept normalization from Twitter: insights from the Social Media Mining for Health (SMM4H)-2017 shared task（JAMIA 2018）     |   9149   | 22500 concepts(513 in trainset), 61 semantic types    |  tweets     |
+| MCN  |   Data and systems for medication-related text classification and concept normalization from Twitter: insights from the Social Media Mining for Health (SMM4H)-2017 shared task（JAMIA 2018）    |  13609    | 434056 concepts(3792 in trainset), 125 semantic types    | from the MIMIC II31 database    |
 | ShARe/CLEF 2013   |       |    199 notes in the training set and 99 notes in the test set   |    |     |
-| BC5CDR task corpus   |       |  1500 PubMed abstracts     |     |     |
+| BC5CDR task corpus   |       |  1500 PubMed abstracts     |  MeSH/OMIM concepts(according to e Comparative Toxicogenomics
+Database (CTD) MEDIC disease vocabulary) 9700 concepts, 67000terms(including synonyms)   |     |
 | NCBI Disease corpus   |       |  793 PubMed abstracts   |    |     |
 | CADEC   |       |      | mapped to SNOMED CT-AU    |     |
 
