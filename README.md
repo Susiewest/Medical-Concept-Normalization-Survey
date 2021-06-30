@@ -9,9 +9,9 @@ Generate and rank
 Supervised multi-class classifiers
 |Authors    | Paper     | idea     |  Dataset     |  Eval     |  Code     |
 | ---------- | :-----------:  | :-----------: |:-----------:  | :-----------: |:-----------:  |
-| Belousov(2017)    | Using an Ensemble of Generalised Linear and Deep Learning Models in the SMM4H 2017 Medical Concept Normalisation Task     | logistic    | medDRA    | accuracy    |      |
-|   Tutubalina(2018)   | Medical concept normalization in social media posts with recurrent neural networks     |    | CADEC    |    |      |
-|  Luo et al.(2019)     | A Hybrid Normalization Method for Medical Concepts in Clinical Narrative using Semantic Matching     | "Exact Match + Edit Distance Deep Learning（Embedding layer+bilstm+dense+softmax）   | ShARe/CLEF 2013   |   |     |
+| Belousov(2017)    | Using an Ensemble of Generalised Linear and Deep Learning Models in the SMM4H 2017 Medical Concept Normalisation Task     | logistic    | medDRA    | Acc   |      |
+|   Tutubalina(2018)   | Medical concept normalization in social media posts with recurrent neural networks     |    | CADEC    | Acc    |      |
+|  Luo et al.(2019)     | A Hybrid Normalization Method for Medical Concepts in Clinical Narrative using Semantic Matching     | "Exact Match + Edit Distance Deep Learning（Embedding layer+bilstm+dense+softmax）   | ShARe/CLEF 2013   | Acc+Macro+Micro  |     |
 | Niu et al.(2019)    | Multi-task CharacterLevel Attentional Networks for Medical Concept Normalization     | medical named entity recognition(CNN embedding+BiLSTM sequence labeling) and normalization    | BC5CDR task corpus/ NCBI Disease corpus    | F1    |  |
 
 Dataset
@@ -23,8 +23,7 @@ Dataset
 | SMM4H-17   |  Data and systems for medication-related text classification and concept normalization from Twitter: insights from the Social Media Mining for Health (SMM4H)-2017 shared task（JAMIA 2018）     |   9149   | 22500 concepts(513 in trainset), 61 semantic types    |  tweets     |
 | MCN  |   Data and systems for medication-related text classification and concept normalization from Twitter: insights from the Social Media Mining for Health (SMM4H)-2017 shared task（JAMIA 2018）    |  13609    | 434056 concepts(3792 in trainset), 125 semantic types    | from the MIMIC II31 database    |
 | ShARe/CLEF 2013   |       |    199 notes in the training set and 99 notes in the test set   |    |     |
-| BC5CDR task corpus   |       |  1500 PubMed abstracts     |  MeSH/OMIM concepts(according to e Comparative Toxicogenomics
-Database (CTD) MEDIC disease vocabulary) 9700 concepts, 67000terms(including synonyms)   |     |
+| BC5CDR task corpus   |       |  1500 PubMed abstracts     |  MeSH/OMIM concepts(according to e Comparative Toxicogenomics Database (CTD) MEDIC disease vocabulary) 9700 concepts, 67000terms(including synonyms)   |     |
 | NCBI Disease corpus   |       |  793 PubMed abstracts   |    |     |
 | CADEC   |       |      | mapped to SNOMED CT-AU    |     |
 
