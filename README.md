@@ -17,8 +17,10 @@ Supervised multi-class classifiers
 Rank
 |Method   | Paper     | Author     |  Disadvantage  |
 | ---------- | :-----------:  | :-----------: | :-----------: |
-| Point-wise Learing to Rank|   |   |   |
-|Pair-wise learning to rank |   A combined recall and rank framework with online negative sampling for Chinese procedure terminology normalization |  Liang et al.(2021 Oxford) | 还在看 |
+| Direct Rank（字典查找、字符串匹配） |   |   |  不能找到字面上不相似但语义相同的concept |
+| Direct Rank（Classfication） |   |   |  输出空间太大 |
+| Point-wise Learing to Rank|   |   |  KB规模大时效率不佳  |
+|Pair-wise learning to rank |   A combined recall and rank framework with online negative sampling for Chinese procedure terminology normalization（https://github.com/sxthunder/CMTN） |  Liang et al.(2021 Oxford) | 还在看 |
 | List-wise learining to rank |  A Generate-and-Rank Framework with Semantic Type Regularization for Biomedical Concept Normalization        |  Yan et al. (2020)     |  multi-implication未解决, rank本质上还是按list送进bert+分类层？ |
 
 Dataset
