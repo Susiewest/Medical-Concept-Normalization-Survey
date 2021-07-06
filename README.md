@@ -10,7 +10,7 @@ Supervised multi-class classifiers
 |Authors    | Paper     | idea     |  Dataset     |  Eval     |  Code     |
 | ---------- | :-----------:  | :-----------: |:-----------:  | :-----------: |:-----------:  |
 | Belousov(2017)    | Using an Ensemble of Generalised Linear and Deep Learning Models in the SMM4H 2017 Medical Concept Normalisation Task     | logistic    | medDRA    | Acc   |      |
-|   Tutubalina(2018)   | Medical concept normalization in social media posts with recurrent neural networks     |    | CADEC    | Acc    |      |
+|   Tutubalina(2018)   | Medical concept normalization in social media posts with recurrent neural networks     |  RNN/LSTM/GRU + Similarity feature（TF-IDF/w2v） | CADEC    | Acc    |      |
 |  Luo et al.(2019)     | A Hybrid Normalization Method for Medical Concepts in Clinical Narrative using Semantic Matching     | "Exact Match + Edit Distance Deep Learning（Embedding layer+bilstm+dense+softmax）   | ShARe/CLEF 2013   | Acc+Macro+Micro  |     |
 | Niu et al.(2019)    | Multi-task CharacterLevel Attentional Networks for Medical Concept Normalization     | medical named entity recognition(CNN embedding+BiLSTM sequence labeling) and normalization    | BC5CDR task corpus/ NCBI Disease corpus    | F1    |  |
 
