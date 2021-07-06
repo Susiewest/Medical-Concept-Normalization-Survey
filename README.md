@@ -14,6 +14,13 @@ Supervised multi-class classifiers
 |  Luo et al.(2019)     | A Hybrid Normalization Method for Medical Concepts in Clinical Narrative using Semantic Matching     | "Exact Match + Edit Distance Deep Learning（Embedding layer+bilstm+dense+softmax）   | ShARe/CLEF 2013   | Acc+Macro+Micro  |     |
 | Niu et al.(2019)    | Multi-task CharacterLevel Attentional Networks for Medical Concept Normalization     | medical named entity recognition(CNN embedding+BiLSTM sequence labeling) and normalization    | BC5CDR task corpus/ NCBI Disease corpus    | F1    |  |
 
+Rank
+|Method   | Paper     | Author     |  Disadvantage  |
+| ---------- | :-----------:  | :-----------: | :-----------: |
+| Point-wise Learing to Rank|   |   |   |
+|Pair-wise learning to rank |   A combined recall and rank framework with online negative sampling for Chinese procedure terminology normalization |  Liang et al.(2021 Oxford) | 还在看 |
+| List-wise learining to rank |  A Generate-and-Rank Framework with Semantic Type Regularization for Biomedical Concept Normalization        |  Yan et al. (2020)     |  multi-implication未解决, rank本质上还是按list送进bert+分类层？ |
+
 Dataset
 |Dataset    | Paper | Mention     | Standard entities     |  Source     |  
 | ---------- | :-----------:  | :-----------: |:-----------:  | :-----------:  | 
